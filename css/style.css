@@ -3534,3 +3534,197 @@ Back To Top Section
  */
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+@media(max-width:767px){
+  .main-slider h1, .banner h1{
+    width:70% !important;
+    margin:0 auto !important;
+    text-align:center !important;
+  }
+}
+
+
+@media (max-width: 767px) {
+  /* Top Bar - Phone + Email Ek Jaisa Align */
+  div[style*="background:#f5b400"] > div > div:first-child {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 4px !important;
+  }
+  div[style*="background:#f5b400"] > div > div:first-child span {
+    display: flex !important;
+    align-items: center !important;
+    gap: 5px !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+    white-space: nowrap !important;
+    margin: 0 !important;
+  }
+
+  /* Slider - Dono Text Center */
+  .main-slider .slider-content,
+  .banner-content,
+  .carousel-caption {
+    text-align: center !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    width: 75% !important;
+  }
+  .main-slider .slider-content span,
+  .main-slider .slider-content p,
+  .banner-content .small-text {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto 8px auto !important;
+  }
+  .main-slider h1 {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+}
+
+
+/* Top Bar - Phone Email 100% Same Align */
+.topbar-custom-wrap{max-width:1200px; margin:0 auto; padding:0 15px; display:flex; justify-content:space-between; align-items:center;}
+.topbar-left{color:#fff; font-size:14px; display:flex; gap:20px; align-items:center; padding:10px 0;}
+.topbar-left span{display:flex !important; align-items:center !important; gap:6px !important; white-space:nowrap !important;}
+.topbar-left span i{width:14px !important; text-align:center !important;}
+.topbar-right{display:flex;}
+.topbar-right a{width:38px; height:38px; display:flex; align-items:center; justify-content:center; color:#fff;}
+
+@media(max-width:767px){
+  .topbar-left{flex-direction:column !important; gap:2px !important; align-items:flex-start !important; font-size:10px !important; padding:5px 0 !important;}
+  .topbar-left span{line-height:12px !important; margin:0 !important; padding:0 !important;}
+  .topbar-right a{width:26px !important; height:26px !important; font-size:12px !important;}
+
+  /* Slider - Orange + White dono center - Aapki image ka fix */
+  #oc-fullslider .container{justify-content:center !important; display:flex !important;}
+  #oc-fullslider .wrap-caption{
+    width:75% !important; 
+    margin:0 auto !important; 
+    text-align:center !important; 
+    left:0 !important; 
+    right:0 !important;
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+  }
+  #oc-fullslider .caption-supheading{
+    text-align:center !important;
+    width:100% !important;
+    margin:0 auto 10px auto !important;
+    display:block !important;
+    font-size:12px !important;
+  }
+  #oc-fullslider .caption-heading{
+    text-align:center !important;
+    width:100% !important;
+    margin:0 auto !important;
+    font-size:24px !important;
+    line-height:28px !important;
+  }
+  #oc-fullslider .owl-nav .owl-prev{left:8px !important;}
+  #oc-fullslider .owl-nav .owl-next{right:8px !important;}
+}
+
+
+/* Teen Box ka Font Family Normal Karo */
+.rs-feature-box-1 .body h4 {
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    letter-spacing: 0 !important;
+}
+.rs-feature-box-1 .body p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: normal !important;
+}
+.footer-title{
+			font-size: 24px;
+			padding: 20px 0 30px 0;
+			margin-bottom: 0;
+			position: relative;
+			color: $color-secondary;
+			font-family: 'Open Sans', sans-serif !important;
+    font-style: normal !important;
+			
+		}
+
+h1, h2, h3, h4, h5, h2.section-heading, .title, .section-heading, .rs-feature-box-1 .body h4 {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal !important;
+  font-size: 30px;
+}
+.rs-feature-box-1 .body p {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.p-check{
+	padding-left: 40px;
+	position: relative;
+    margin-bottom: 0.25rem;
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  h2.section-heading {
+    margin-top: 18px !important;
+    padding-top: 10px !important;
+  }
+ .btn, a.btn-secondary {
+    display: block !important;
+    margin: 20px auto 0 auto !important;
+    text-align: center !important;
+    width: fit-content !important;
+  }
+}
+
+
+/* FOOTER LOGO FIX */
+.footer .logo img,
+footer .logo img,
+.footer-logo img {
+  max-width: 180px !important;
+  width: 180px !important;
+  height: auto !important;
+}
+
+/* Mobile pe aur chota */
+@media (max-width: 767px) {
+  .footer .logo img,
+  footer .logo img,
+  .footer-logo img {
+    max-width: 140px !important;
+    width: 140px !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+}
+
+ .active>.nav-link{
+      color: #f50071;
+      background-color:#ef921b !important;
+    }
+
+    .fcopy {
+	    padding: 15px 0;
+	    font-size: 14px;
+	    border-top: 1px solid #ef921b !important;
+	    background-color: #ef921b !important;
+	}
+  .footer-title{
+			font-size: 24px;
+			padding: 20px 0 30px 0;
+			margin-bottom: 0;
+			position: relative;
+			color: #ef921b !important;
+			
+			
+		}
+    
